@@ -22,7 +22,11 @@ def position_taken?(board, index)
 end
 
 def move(board, index, token = "X")
+<<<<<<< HEAD
   board[index] = token
+=======
+  token = board[index]
+>>>>>>> d5aaf708a64797e282af7d9bc1c9e03b7fe9ac11
   return board
 end
 
